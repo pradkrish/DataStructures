@@ -9,13 +9,10 @@ class LinkedList
 {
 private:
   int m_count;
-public:
-  // first node in the list
   Node<T>* Head;
-  
-  // last node in the list
   Node<T>* Tail; 
-
+  
+public:
   // constructor
   LinkedList();
 
